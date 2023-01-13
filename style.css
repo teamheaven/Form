@@ -1,0 +1,38 @@
+body {
+  background-image: -webkit-linear-gradient(left, powderblue 50%, white 50%);
+  background-image: -moz-linear-gradient(left, powderblue 50%, white 50%);
+  background-image: -o-linear-gradient(left, powderblue 50%, white 50%);
+  background-image: linear-gradient(to right, powderblue 50%, white 50%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+form {
+  text-align:center;
+  width: 500px;
+  height: 450px;
+  border-left: 10px solid white;
+  border-right: 10px solid powderblue;
+  padding: 3rem 0;
+  font-family:serif;
+  font-size:17px;
+  margin: 50px auto;
+  background-image: -webkit-linear-gradient(left, white 50%, powderblue 50%), -webkit-linear-gradient(left, white 50%, powderblue 50%);
+  background-image: -moz-linear-gradient(left, white 50%, powderblue 50%), -moz-linear-gradient(left, white 50%, powderblue 50%);
+  background-image: -o-linear-gradient(left, white 50%, powderblue 50%), -o-linear-gradient(left, white 50%, powderblue 50%);
+  background-image: linear-gradient(to right, white 50%, powderblue 50%), linear-gradient(to right, white 50%, powderblue 50%);
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  background-size: 100% 10px;
+}
+.heading
+{
+	text-align:center;
+	padding:20px;
+	font-family:Times New Roman;
+	font-size:20px;
+}

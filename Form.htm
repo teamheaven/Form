@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> form </title>
+</head>
+<body>
+<div class="heading">
+<h2>Personal Information</h2>
+  <div class="container">
+      <div class="col-lg-6">
+        <form action="action.php" method="post" enctype="multipart/form-data">
+                  <label for="first_name">First Name:</label>
+                  <input type="text" name="first_name" id="first_name" class="form-controls"/><br><br>
+    
+	              <label for="last_name">Last Name:</label>
+                  <input type="text" name="last_name" id="last_name" class="form-controls"/><br><br>
+	
+                  <label for="email">Email Address:</label>
+                  <input type="text" name="email" id="email" class="form-controls"/><br><br>
+                
+                  <label for="position">Job Position:</label>
+                  <input type="text" name="position" id="position" class="form-controls"/><br><br>
+             
+                  <label for="phone">Contact no. :</label>
+                  <input type="text" name="phone" id="phone" class="form-controls"/><br><br>
+               
+ 
+                  <label for="uexperience">Experience:</label>
+                  <select id="uexperience" name="uexperience" class="decorated">
+                    <option id="selectHeader">--------- Select Experience --------------</option>
+                    <option value="1-2 YEAR">1-2 Years</option>
+                    <option value="1-3 YEAR">1-3 Years</option>
+                    <option value="2-4 YEAR">2-4 Years</option>
+                    <option value="4-6 YEAR">4-6 Years</option>
+                    <option value="6-10 YEAR">6-10 Years</option>
+                    <option value=">10 YEAR">&gt; 10 Years</option>
+                  </select><br><br>
+                
+                  <label for="gender"> Gender:</label>
+				  Male<input type="radio" id="gender" name="radio" class="form-controls"/>
+				  Female<input type="radio" id="gender" name="radio" class="form-controls"/>
+				  Other<input type="radio" id="gender" name="radio" class="form-controls"/><br><br>
+				  
+				  <label for="myfile">Upload your file:<input type="file" id="myfile" name="myfile" class="form-controls"/></label><br><br>
+				  
+				  <input type="submit" value="Submit"/>
+        </form>
+      </div>
+	  </div>
+    </div>
+  </div>
+</body>
+</html>
